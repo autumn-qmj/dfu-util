@@ -213,7 +213,7 @@ get_status:
 	
 	float timeConsumed = (float)endTime - (float)startTime;
 
-	printf("Down load time consumed:%fs\n", (float)(timeConsumed)/CLOCKS_PER_SEC);
+	printf("Download time consumed:%fs\n", (float)(timeConsumed)/CLOCKS_PER_SEC);
 
 out:
 	return bytes_sent;
