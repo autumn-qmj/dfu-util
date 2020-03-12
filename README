@@ -18,3 +18,8 @@ The official website is:
   http://dfu-util.sourceforge.net
 
 See the INSTALL file for build instructions.
+
+Build the WIN32 tool
+1. Git clone https://github.com/autumn-qmj/dfu-util.git
+2. Git clone https://github.com/autumn-qmj/libusb.git
+3. Open dfu-util/msvc/dfu-util_2010.sln and build
